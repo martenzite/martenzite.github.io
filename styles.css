@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(2, 48, 100);
+    }
+ @media screen and (min-width: 480px) {
+                body {
+                    background-color: rgb(49, 131, 224);
+                    }
+                }
+            .top{
+                background-color:rgb(105, 245, 245) ;
+                display:flex;
+            }
+            .top > div{
+                background-color:rgb(158, 242, 245) ;
+                margin: 20px;
+                height: auto;
+                width:100%;
+                border: 5px solid rgb(49, 131, 224);
+                text-align: center;
+                border-radius: 25px;
+                background-image: url("https://lh3.googleusercontent.com/GHeFjWIMvpooJXdTmDyssWJcNoV89cdsIm_bwWL2oo4Bc7hvTTo_n_euBp5_5MtWN3M");
+                background-size: cover;
+                
+            }
+            .top >div >h1 {
+                font-family: Georgia, serif;
+                font-size: 60px;
+                color: rgb(255, 255, 255);
+                text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            }
+            .container >div >h1 {
+                font-family: Georgia, serif;
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+                text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            }
+            .button {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.5s;
+                cursor: pointer;
+                border-radius: 10px
+            }
+            .button1 {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+            .button1:hover {
+                background-color: #4CAF50;
+                color: white;
+            }
+            .button2 {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #008CBA;
+            }
+            .button2:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+            .button3 {
+                background-color: white; 
+                color: black; 
+                border: 2px solid #f44336;
+            }
+            .button3:hover {
+                background-color: #f44336;
+                color: white;
+            }
+            .button4 {
+                background-color: white;
+                color: black;
+                border: 2px solid #747070;
+            }
+            .button4:hover {background-color: #e7e7e7;}
+            .button5 {
+                background-color: white;
+                color: black;
+                border: 2px solid #555555;
+            }
+            .button5:hover {
+                background-color: #555555;
+                color: white;
+            }
+            img:hover{
+                box-shadow: 0 0 10px 1px rgba(137, 41, 226, 0.5);
+            }
+            img{
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                background-color: rgb(105, 245, 245);
+            }
+            .container > div {
+                background-color: rgb(158, 242, 245);
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: auto;
+                height: auto;
+                text-align: center;
+                border: 5px solid rgb(49, 131, 224);
+                border-radius: 25px;
+                animation-name: an1;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+                
+            }
+            @keyframes an1 {
+                0%   {background-color: rgb(158, 242, 245);}
+                25%  {background-color: rgb(116, 241, 225);}
+                50%  {background-color: rgb(235, 236, 152);}
+                100% {background-color: rgb(236, 199, 247);}
+            }
+            li{
+                text-align:left;
+                font-family: cursive;
+                
+            }
+            .menu{
+                background-image:url("https://lh3.googleusercontent.com/GHeFjWIMvpooJXdTmDyssWJcNoV89cdsIm_bwWL2oo4Bc7hvTTo_n_euBp5_5MtWN3M");
+                border-radius: 25px;
+                border: 3px solid rgb(49, 131, 224);
+                background-size: cover;
+            }
