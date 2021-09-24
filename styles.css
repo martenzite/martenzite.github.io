@@ -129,6 +129,7 @@ a {
 li{
     text-align:left;
     font-family: cursive;
+    transition: 0.5s;
 }
 .menu{
     background-image:url("https://lh3.googleusercontent.com/GHeFjWIMvpooJXdTmDyssWJcNoV89cdsIm_bwWL2oo4Bc7hvTTo_n_euBp5_5MtWN3M");
